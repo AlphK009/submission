@@ -1,6 +1,5 @@
 import pandas as pd
 import streamlit as st
-import seaborn as sns
 import streamlit as st
 from babel.numbers import format_currency
 def create_daily_orders_df(df):
