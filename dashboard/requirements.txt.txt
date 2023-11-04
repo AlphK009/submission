@@ -185,3 +185,4 @@ wincertstore==0.2
 wrapt==1.14.1
 xyzservices @ file:///home/conda/feedstock_root/build_artifacts/xyzservices_1663619671984/work
 zipp==3.11.0
+matplotlib==3.4.1
