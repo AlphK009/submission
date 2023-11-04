@@ -134,7 +134,8 @@ with col1:
     st.metric("Total orders", value = total_orders)
 
 with col2:
-    total_revenue = format_currency(daily_orders_df.revenue.sum(), "BRL", locale='es_CO')
+    total_revenue = format_currency(daily_orders_df.revenue.sum(), "BRL", locale='pt_BR')
+
     st.metric("Total Revenue", value=total_revenue)
 
 fig, ax = plt.subplots(figsize=(16, 8))
@@ -284,7 +285,7 @@ with col2:
     st.metric("Average Frequency", value = avg_frequency)
 
 with col3:
-    avg_frequency = format_currency(rfm_df.monetary.mean(), 'BRL', locale='es_CO')
+    avg_frequency = format_currency(rfm_df.monetary.mean(), 'BRL', locale='pt_BR')
     st.metric("Average Monetary", value=avg_frequency)
 
 fig, ax = plt.subplots(nrows=1, ncols=3, figsize=(35, 15))
