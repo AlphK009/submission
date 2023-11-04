@@ -80,7 +80,7 @@ def create_rfm_df(df):
 
     return rfm_df
 
-all_df = pd.read_csv("https://raw.githubusercontent.com/AlphK009/submission/main/dashboard/all_data.csv")
+all_df = pd.read_csv("https://raw.githubusercontent.com/AlphK009/submission/main/all_data.csv")
 
 datetime_columns = ["order_purchase_timestamp", "order_delivered_carrier_date"]
 all_df.sort_values(by="order_purchase_timestamp", inplace=True)
