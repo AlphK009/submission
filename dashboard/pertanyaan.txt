@@ -1,0 +1,8 @@
+# Bagaimana demografi pelanggan yang kita miliki?
+# bagaimana demografi sellers yang kita miliki?
+# bagaimana review score yang diberikan dari pelanggan ?
+# Bagaimana performa revenue perusahaan dari tiap bulannya?
+# bagaimana revenue perusahaan berdasarkan type pembayaran?
+# bagaimana metode pembayaran yang dipakai pelanggan dan berapa kali rata-rata melakukan pembayaran?
+# berapa banyak metode pembayaran yang terpasang/dipasang oleh pelanggan?
+# berapa banyak order yang dicancel dengan yang berhasil dikirimkan(delivered)?
