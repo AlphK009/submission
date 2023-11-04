@@ -1,5 +1,9 @@
 import pandas as pd
 import streamlit as st
+import seaborn as sns
+from babel.numbers import format_currency
+
+sns.set(style='dark')
 def create_daily_orders_df(df):
     daily_orders_df = df.resample(rule='D', on='order_purchase_timestamp').agg({
         "order_id": "nunique",
